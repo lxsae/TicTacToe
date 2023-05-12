@@ -25,6 +25,7 @@ public class Menu extends javax.swing.JFrame {
         Ronda4 = new javax.swing.JButton();
         Ronda2 = new javax.swing.JButton();
         Ronda3 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
         Fondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -104,6 +105,10 @@ public class Menu extends javax.swing.JFrame {
         });
         jPanel1.add(Ronda3, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 190, 40, 30));
 
+        jLabel1.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
+        jLabel1.setText("<html>PRIMERO SELECICIONA EL<br>NÚMERO DE RONDAS QUE QUIERAS JUGAR</html>");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, -30, 320, 150));
+
         Fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/menu.png"))); // NOI18N
         jPanel1.add(Fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -20, 520, 370));
 
@@ -176,6 +181,7 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JButton Ronda3;
     private javax.swing.JButton Ronda4;
     private javax.swing.JButton btnregresar;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
